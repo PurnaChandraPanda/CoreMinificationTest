@@ -70,4 +70,6 @@ Hello World!
 ```
 
 ## Reference
-I scanned through a lot of documents for this purpose. However, in the time of need, [it](http://geekswithblogs.net/JeremyMorgan/archive/2019/07/24/creating-trimmed-self-contained-executables-in-.net-core.aspx) actually helped overcome my misconception.
+- I scanned through a lot of documents for this purpose. However, in the time of need, [it](http://geekswithblogs.net/JeremyMorgan/archive/2019/07/24/creating-trimmed-self-contained-executables-in-.net-core.aspx) actually helped overcome my misconception.
+- [This](https://gunnarpeipman.com/dotnet-core-self-contained-executable/) actually explains what self-contained executable means, and how it encompasses the required dependencies in one.
+
