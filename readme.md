@@ -50,7 +50,7 @@ Hello World!
 
 If it is a Windows machine, you can create runnable for Linux.
 
-Compile from Windows
+### Compile from Windows
 ```
 PS D:\work\samples\DotNetSample\MinificationTest\ConsoleApp2> dotnet publish -r linux-x64 -c Release /p:PublishSingleFile=true /p:PublishTrimmed=true
 Microsoft (R) Build Engine version 16.4.0+e901037fe for .NET Core
@@ -62,9 +62,9 @@ Copyright (C) Microsoft Corporation. All rights reserved.
   ConsoleApp2 -> D:\work\samples\DotNetSample\MinificationTest\ConsoleApp2\bin\Release\netcoreapp3.1\linux-x64\publish\
 ```
 
-Run from Linux
+### Run from Linux
 ```
-pupanda@MININT-BJ5SNCB:/mnt/d/work/samples/DotNetSample/MinificationTest/ConsoleApp2/bin/Release/netcoreapp3.1/linux-x64/publish
+uadmin@MININT-BJ5SNCB:/mnt/d/work/samples/DotNetSample/MinificationTest/ConsoleApp2/bin/Release/netcoreapp3.1/linux-x64/publish
 $ ./ConsoleApp2
 Hello World!
 ```
