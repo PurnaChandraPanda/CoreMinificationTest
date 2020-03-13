@@ -1,4 +1,4 @@
-# Minification for .NET Core app
+# Minification of .NET Core app
 
 This small adventure explains how to perform minification in Windows and Linux platforms.
 
