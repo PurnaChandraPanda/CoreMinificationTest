@@ -4,7 +4,7 @@ This small adventure explains how to perform minification in Windows and Linux p
 
 ## Windows
 ```
-PS D:\work\samples\DotNetSample\MinificationTest\ConsoleApp1> dotnet publish -r win-x64 -c Release /p:PublishSingleFile=true /p:PublishTrimmed=true
+PS D:\work\samples\DotNetSample\MinificationTest\ConsoleApp1> dotnet publish -r win-x64 -c Release /p:PublishTrimmed=true /p:PublishSingleFile=true
 Microsoft (R) Build Engine version 16.4.0+e901037fe for .NET Core
 Copyright (C) Microsoft Corporation. All rights reserved.
 
@@ -30,7 +30,7 @@ I have WSL ubuntu 18.04 installed.
 For Linux, can follow the same process with a slight change.
 
 ```
-uadmin@MININT-BJ5SNCB:/mnt/d/work/samples/DotNetSample/MinificationTest/ConsoleApp1$ sudo dotnet publish -r linux-x64 -c Release /p:PublishSingleFile=true /p:PublishTrimmed=true
+uadmin@MININT-BJ5SNCB:/mnt/d/work/samples/DotNetSample/MinificationTest/ConsoleApp1$ sudo dotnet publish -r linux-x64 -c Release /p:PublishTrimmed=true /p:PublishSingleFile=true
 Microsoft (R) Build Engine version 16.4.0+e901037fe for .NET Core
 Copyright (C) Microsoft Corporation. All rights reserved.
 
@@ -52,7 +52,7 @@ If it is a Windows machine, you can create runnable for Linux.
 
 ### Compile from Windows
 ```
-PS D:\work\samples\DotNetSample\MinificationTest\ConsoleApp2> dotnet publish -r linux-x64 -c Release /p:PublishSingleFile=true /p:PublishTrimmed=true
+PS D:\work\samples\DotNetSample\MinificationTest\ConsoleApp2> dotnet publish -r linux-x64 -c Release /p:PublishTrimmed=true /p:PublishSingleFile=true
 Microsoft (R) Build Engine version 16.4.0+e901037fe for .NET Core
 Copyright (C) Microsoft Corporation. All rights reserved.
 
